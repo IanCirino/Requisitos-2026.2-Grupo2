@@ -1,37 +1,37 @@
 # Visão da Demanda (VD) — Software de auxílio estudantil e preparação para o ENADE
 
-## Identificação e Histórico
+## Identificação e Histórico 
 
 | Campo | Informação |
 | --- | --- |
-| Nome e identificador da demanda | Sistema web/mobile de auxílio estudantil e preparação para o ENADE |
+| Nome e identificador da demanda | AdE - Amigo do Estudante: Sistema web de auxílio estudantil e preparação para provas no estilo ENADE |
 | Tipo | Novo sistema |
 | Sistema ou produto relacionado | QEnade, Descomplica, Qconcurso, PreparaEdu |
 | Área solicitante | Coordenação UNIFOR |
 | Responsável pela elaboração | Ian Carvalho Cirino - Desenvolvedor/Estudante |
 | Responsável pela validação | Prof. Me. Marcelo Bezerra De Alcantara - Docente Avaliador ; Prof. Me. Atila Girao De Oliveira - Representante da demanda e Avaliador|
-| Situação do documento | Rascunho |
-| Versão e data | 0.1 — 01/11/2026 |
+| Situação do documento | Elicitação dos Requisitos|
+| Versão e data | 0.2 — 06/11/2026 |
 
 | Data | Versão | Descrição da alteração | Autor |
 | --- | --- | --- | --- |
 | 01/11/2026 | 0.1 | Criação da primeira versão do VD | Ian Carvalho Cirino |
+| 06/11/2026 | 0.2 | Elicitação dos Requisitos | Ian Carvalho Cirino |
 
-> **Origem das informações:** todo o conteúdo abaixo vem dos documentos PROJETO DE EXTENSÃO -ENADE- REQUISITOS E MODELAGEM DE SISTEMAS e Propostas_Projetos_Internacionalizacao_ENADE_Unifor, além de declarações verbais do Professor Marcelo Bezerra. O que não consta nele está marcado como **A definir** ou como hipótese.
+> **Origem das informações:** todo o conteúdo abaixo vem dos documentos PROJETO DE EXTENSÃO -ENADE- REQUISITOS E MODELAGEM DE SISTEMAS, Propostas_Projetos_Internacionalizacao_ENADE_Unifor e entrevistas com o Professor Marcelo Bezerra. O que não consta nele está marcado como **A definir** ou como hipótese.
 
 ## 1. Objetivo
 
-Permitir que estudantes se preparem para o ENADE com questões comentadas, simulados cronometrados e acompanhamento do próprio desempenho. Permitir que administradores mantenham o conteúdo e o acesso ao sistema.
+Permitir que estudantes se preparem para o ENADE e provas semelhantes com questões comentadas, simulados cronometrados e acompanhamento do próprio desempenho. Permitir que coordenadores e docentes mantenham o conteúdo, o acesso ao sistema e leiam as estatísticas dos desempenhos dos alunos.
 
 ## 2. Contexto, Problema e Descrição Sumária da Demanda
 
 - **Situação atual:** o ENADE é componente curricular obrigatório e indicador fundamental da qualidade do ensino superior brasileiro. Segundo a demanda, os estudantes enfrentam dificuldades no preparo. Não há descrição de como eles se preparam hoje (**a definir**, por entrevistas ou questionários).
 - **Problema ou oportunidade:** faltam materiais organizados, simulados práticos e feedback sobre o desempenho dos estudantes.
-- **Públicos afetados e impactos:** estudantes que farão o ENADE (dificuldade de preparo) e administradores do sistema. Juntamente como docentes e coordenações dos cursos.
+- **Públicos afetados e impactos:** estudantes que farão o ENADE ou provas similares (dificuldade de preparo), coordenação dos cursos e professores. Juntamente com administradores técnicos do sistema.
 - **Evidências disponíveis:** apenas a afirmação dos documentos de demanda e das declarações verbais dos solicitantes. Não há, no momento, dados, pesquisas ou exemplos coletados que a sustentem. Tratar o problema como **hipótese** até o levantamento com os interessados.
-- **Descrição sumária da demanda:** sistema web/mobile com banco de questões organizado por ano, curso/área e componente, simulados cronometrados, gabarito comentado, estatísticas de desempenho, fórum de discussão por questão e cadastro/autenticação de estudantes e administradores.
+- **Descrição sumária da demanda:** sistema web com banco de questões organizado por ano, curso/área e componente, simulados cronometrados, gabarito comentado, estatísticas de desempenho, fórum de discussão por questão e cadastro/autenticação de estudantes e administradores.
 
-> **Contexto da atividade:** a demanda faz parte de uma atividade acadêmica de engenharia de requisitos. O sistema será **especificado**, não necessariamente implementado. A definição do produto mínimo e dos limites do sistema faz parte da análise.
 
 ## 3. Proposta de Valor e Sucesso da Demanda
 
@@ -43,26 +43,28 @@ Permitir que estudantes se preparem para o ENADE com questões comentadas, simul
 | Visão do próprio desempenho por área de conhecimento | A definir | A definir | A definir |
 | Aprendizado colaborativo entre usuários | A definir | A definir | A definir |
 
-> A demanda não traz metas nem indicadores. Nenhum valor foi inventado. O levantamento de métricas está registrado em PQ-02.
-
 ## 4. Partes Interessadas
 
 | Parte interessada | Papel e interesse | Responsabilidade | Representante |
 | --- | --- | --- | --- |
-| Estudantes | Usuários finais. Querem se preparar para o ENADE | Fornecer necessidades e validar a solução, quando houver acesso | A definir |
-| Administradores do sistema | Mantêm o conteúdo e o acesso | A definir | A definir |
+| Estudantes | Usuários finais. Querem se preparar para o ENADE e similares| Fornecer necessidades e validar a solução, quando houver acesso | A definir |
+| Coordenação dos cursos | Mantêm o acesso ao desempenho das turmas | Coletar os dados para análise posterior e manter o controle de cadastros | Prof. Me. Atila Girao De Oliveira |
+| Docentes | Auxiliar os alunos por meio do sistema| Criar questões e simulados, e analisar o desempenho individual dos alunos | Prof. Me. Marcelo Bezerra De Alcantara |
+| Equipe Técnica |  Manter o sistema em funcionamento | Gerenciar, administrar e atualizar o sistema a nível de software| A definir |
 | Solicitante da demanda | Origem da demanda | Decidir escopo e validar a visão | Prof. Me. Atila Girao De Oliveira  |
 | Equipe de requisitos | Elabora a VD e as especificações | Elicitação, especificação e documentação | Ian Carvalho Cirino |
 | Comunidade acadêmica | Público da apresentação final | Receber o pitch do projeto |Prof. Me. Marcelo Bezerra De Alcantara |
-| Responsáveis pelo PreparaEdu e pela Plataforma de Questões e Avaliações da Unifor | Possíveis soluções relacionadas (a investigar) | A definir | A definir |
 
 ## 5. Usuários e Atores Externos
 
 | ID | Usuário, sistema ou dispositivo | Objetivo ou papel na interação | Contexto de uso relevante |
 | --- | --- | --- | --- |
-| AT-01 | Estudante | Estuda questões, faz simulados, consulta gabaritos comentados e estatísticas e participa do fórum | Acesso via web e mobile. |
-| AT-02 | Administrador do sistema | Gerencia o sistema e os cadastros. Ter um feedback do desempenho dos alunos | Leitura dos dados via web/mobile |
-| AT-03 | INEP (provas e dados) | Fonte das provas e das estatísticas oficiais |  Uso de provas do INEP |
+| AT-01 | Estudante | Estuda questões, faz simulados, consulta gabaritos comentados e estatísticas e participa do fórum | Acesso via web. |
+| AT-02 | Técnico administrador do sistema | Gerencia o sistema e os cadastros. | Manutenção do Sistema. |
+| AT-03 | Coordenação | Ter um feedback geral do desempenho das turmas e dos alunos| Leitura dos dados via web. |
+| AT-04 | Professores | Criar simulados, questões e ter um feedback do desempenho dos seus alunos  | Leitura dos dados e implementação de questões e simulados via web.|
+| AT-05 | INEP  | Fonte das provas e das estatísticas oficiais |  Uso de provas do INEP. |
+| AT-06 | Unifor Online | Plataforma fonte dos dados das turmas, alunos e disciplinas | Uso dos dados e APIs. |
 
 ## 6. Escopo e Entregas Previstas
 
@@ -79,7 +81,6 @@ Permitir que estudantes se preparem para o ENADE com questões comentadas, simul
 
 - Não foram definidas exclusões. **A definir** pela equipe.
 - A demanda informa que não é obrigatório implementar todas as funcionalidades e que o produto mínimo deve ser definido na análise. Ver PQ-01.
-- Por ora, a **Plataforma de Gestão Acadêmica e Inteligência do ENADE** (identificação de enadistas, inscrições, painéis institucionais) fica fora, por ser proposta distinta e ainda não selecionada (ver PQ-03).
 
 ### 6.3. Evoluções futuras — opcional
 
@@ -100,8 +101,8 @@ Permitir que estudantes se preparem para o ENADE com questões comentadas, simul
 
 | ID | Necessidade | Fonte ou evidência | Públicos ou atores relacionados |
 | --- | --- | --- | --- |
-| NEC-01 | Ter materiais de estudo do ENADE organizados | Documento de demanda, seção 1 (a confirmar) | AT-01 |
-| NEC-02 | Praticar com simulados em condições próximas às do exame | Documento de demanda, seções 1 e 3 (a confirmar) | AT-01 |
+| NEC-01 | Ter materiais de estudo, do ENADE organizados, tanto criado pelos docentes quanto o disponibilizado pela INEP | Documento de demanda, seção 1 | AT-01 AT-03 |
+| NEC-02 | Praticar com simulados em condições próximas às do exame | Documento de demanda, seções 1 e 3 | AT-01 |
 | NEC-03 | Receber feedback sobre o próprio desempenho | Documento de demanda, seção 1 (a confirmar) | AT-01 |
 | NEC-04 | Compreender os conceitos por trás das respostas | Documento de demanda, seção 3 (a confirmar) | AT-01 |
 | NEC-05 | Aprender de forma colaborativa, discutindo as questões | Documento de demanda, seção 3 (a confirmar) | AT-01 |
@@ -118,6 +119,7 @@ Permitir que estudantes se preparem para o ENADE com questões comentadas, simul
 | F-06 | **Cadastro e autenticação:** cadastrar e autenticar estudantes e administradores de forma segura | NEC-06 | AT-01, AT-02 | A definir | A definir | A definir | Entrega | A elaborar |
 | F-07 | **Importação de provas em PDF do INEP** (hipótese, proposta da seção 5) | NEC-07 | AT-02, AT-03 | A definir | A definir | A definir | Em avaliação | A elaborar, se confirmada |
 | F-08 | **Classificação por temas e competências e relação com a grade curricular** (hipótese, proposta da seção 5) | NEC-07 | AT-02 | A definir | A definir | A definir | Em avaliação | A elaborar, se confirmada |
+| F-09 | **Cadastrar Questôes** | NEC-07 | AT-02 | A definir | A definir | A definir | Em avaliação | A elaborar, se confirmada |
 
 > A coluna "Escopo ou entrega" indica **Entrega** para os itens listados no escopo geral da demanda (seção 3 do documento original). Isso ainda precisa ser confirmado quando o produto mínimo for definido. A prioridade, o valor e a frequência não foram informados; ficam como **A definir**, sem estimativa inventada.
 >
