@@ -1,3 +1,5 @@
+![capa do texto](../Imagens/Amigo_do_Estudante_Aprenda_e_Conquiste.png)
+
 # Visão da Demanda (VD) — Software de auxílio estudantil e preparação para o ENADE
 
 ## Identificação e Histórico 
@@ -10,8 +12,8 @@
 | Área solicitante | Coordenação UNIFOR |
 | Responsável pela elaboração | Ian Carvalho Cirino - Desenvolvedor/Estudante |
 | Responsável pela validação | Prof. Me. Marcelo Bezerra De Alcantara - Docente Avaliador ; Prof. Me. Atila Girao De Oliveira - Representante da demanda e Avaliador|
-| Situação do documento | Elicitação dos Requisitos|
-| Versão e data | 0.2 — 06/11/2026 |
+| Situação do documento |  Finalização do documento de visão |
+| Versão e data | 0.3 — 14/11/2026 |
 
 | Data | Versão | Descrição da alteração | Autor |
 | --- | --- | --- | --- |
