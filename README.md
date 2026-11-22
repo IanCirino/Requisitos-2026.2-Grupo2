@@ -3,7 +3,7 @@
 </div>
 # 📚 Amigo do Estudante: Aprenda e Conquiste
 
-> Repositório oficial do **Grupo 2** para a disciplina de **Engenharia de Requisitos (2026.2)**.
+> Repositório oficial do **Grupo 2** para a disciplina de **Requisitos e Modelagem de Sistemas(2026.2)**.
 
 ---
 
@@ -11,7 +11,7 @@
 
 O **Amigo do Estudante: Aprenda e Conquiste** é uma solução voltada para auxiliar estudantes em sua jornada acadêmica, promovendo organização, engajamento e melhoria no desempenho escolar/universitário. 
 
-Este repositório reúne todos os artefatos produzidos ao longo da disciplina de Engenharia de Requisitos, incluindo elicitação, análise, especificação, validação e gerenciamento de requisitos.
+Este repositório reúne todos os artefatos produzidos ao longo da disciplina de Requisitos e Modelagem de Sistemas, incluindo elicitação, análise, especificação, validação e gerenciamento de requisitos.
 
 ---
 
@@ -56,19 +56,15 @@ Requisitos-2026.2-Grupo2/
 | Foto | Nome | GitHub | Papel / Contribuição |
 | :---: | :--- | :--- | :--- |
 | 👤 | **Ian Cirino** | [@IanCirino](https://github.com/IanCirino) | Integrante / Engenharia de Requisitos |
-| 👤 | *Nome do Integrante 2* | [@usuario2](https://github.com/) | Integrante / Engenharia de Requisitos |
-| 👤 | *Nome do Integrante 3* | [@usuario3](https://github.com/) | Integrante / Engenharia de Requisitos |
-| 👤 | *Nome do Integrante 4* | [@usuario4](https://github.com/) | Integrante / Engenharia de Requisitos |
-| 👤 | *Nome do Integrante 5* | [@usuario5](https://github.com/) | Integrante / Engenharia de Requisitos |
 
 ---
 
 ## 📅 Cronograma e Entregas
 
 - [x] **Etapa 1:** Formação do Grupo e Definição do Escopo
-- [ ] **Etapa 2:** Elicitação de Requisitos e Definição de Personas
-- [ ] **Etapa 3:** Análise, Priorização e Regras de Negócio
-- [ ] **Etapa 4:** Especificação de Requisitos e Prototipação
+- [x] **Etapa 2:** Elicitação de Requisitos e Definição de Personas
+- [x] **Etapa 3:** Análise, Priorização e Regras de Negócio
+- [x] **Etapa 4:** Especificação de Requisitos e Prototipação
 - [ ] **Etapa 5:** Validação e Entrega Final
 
 ---
